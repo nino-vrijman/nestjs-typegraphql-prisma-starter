@@ -23,7 +23,7 @@
     "prisma:generate": "npx prisma generate",
     "prisma:generate:watch": "npx prisma generate --watch",
     "prisma:save": "npx prisma migrate save --experimental",
-    "prisma:studio": "npx prisma studio --experimental",
+    "prisma:studio": "npx prisma studio",
     "prisma:up": "npx prisma migrate up --experimental"
   },
   "dependencies": {

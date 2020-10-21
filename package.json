@@ -22,7 +22,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prisma:generate": "npx prisma generate",
     "prisma:generate:watch": "npx prisma generate --watch",
-    "prisma:push": "npx prisma schema push --experimental",
     "prisma:save": "npx prisma migrate save --experimental",
     "prisma:studio": "npx prisma studio --experimental",
     "prisma:up": "npx prisma migrate up --experimental"
